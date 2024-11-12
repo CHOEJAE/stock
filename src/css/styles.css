@@ -1,0 +1,174 @@
+/* src/styles.css */
+
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    display: inline-flex;
+    width: 164px;
+    height: 58px;
+    flex-direction: column;
+    justify-content: center;
+    color: #333;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+
+
+  .selector-container {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .chart-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .selector-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input.search-txt {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .search-box button.search-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .search-box button.search-btn:hover {
+    background-color: #555;
+  }
+
+
+  .analysis-container {
+    margin-top: 40px;
+    text-align: left;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .query-period {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .analysis-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .analysis-table th, .analysis-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .analysis-table th {
+    font-weight: bold;
+    background-color: #f4f4f4;
+  }
+  
+  .analysis-result {
+    margin-top: 20px;
+  }
+  
+
+
+
+  .result-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .result-text {
+    color: #333;
+    font-size: 14px;
+  }
+  
+
+
+
+
+  .news-container {
+    margin-top: 40px;
+    text-align: left;
+  }
+  
+  .news-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .news-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .news-text {
+    flex: 1;
+  }
+  
+  .news-date {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .news-headline {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .news-description {
+    font-size: 14px;
+    color: #333;
+  }
+  
