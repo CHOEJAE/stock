@@ -115,9 +115,7 @@
   background-color: #f4f4f4;
 }
 
-.analysis-result {
-  margin-top: 20px;
-}
+
 
 .result-title {
   font-size: 18px;
@@ -131,11 +129,17 @@
 }
 
 .analysis-table-container {
-  width: 100%;
+  width: 700px;
+  height: 300px;
   overflow-y: auto; /* 가로 스크롤 활성화 */
-  margin-top: 20px;
-}
+  margin: 10px 50px;
 
+}
+.analysis-result {
+  margin-top: 20px;
+  display: inline;
+  position: relative;
+}
 .analysis-table {
   width: 100%;
   border-collapse: collapse;
